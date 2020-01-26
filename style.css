@@ -1,0 +1,546 @@
+body {
+    background-color: #212121;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #212121;
+}
+    
+.navbar-brand {
+  font-family: Viga;
+}
+    
+.nav-link {
+  font-family: Kanit;
+  margin-right: 20px;
+  color: white !important;
+}
+    
+.nav-link.active {
+  color: #F9D602 !important;
+}
+    
+.navbar-brand:hover, .nav-link:hover {
+  color: #F9D602 !important;
+}
+   
+/* Jumbotron */
+.jumbotron {
+  background-color: #212121;
+}
+
+.jumbotron .display-4 {
+  font-family: Kanit;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 50px;
+}
+   
+.jumbotron h3 {
+  font-family: Kanit;
+  color: #F9D602;
+  font-size: 20px;
+  font-weight: 600;
+}
+     
+.jumbotron p {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #bfbfbf;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.jumbotron p span {
+  color: white;
+}
+
+.jumbotron p span:hover {
+  color: #bfbfbf;
+}
+    
+.btn.btn-tombol {
+  font-family: Roboto;
+  font-size: 14px;
+  background-color: #F9D602;
+  color: #212121;
+  margin-right: 40px;
+}
+
+.tombol .email {
+  margin-right: 10px;
+}
+
+.btn.btn-tombol:hover {
+  color: white;
+}
+    
+.jumbotron .foto {
+  margin-top: 40px;
+}
+
+.jumbotron .sosmed {
+  margin-right: 20px;
+  color: white;
+  font-size: 28px;
+}
+
+.jumbotron .sosmed:hover {
+  color: #F9D602;
+}
+
+.jumbotron .akun {
+  padding: 15px;
+}
+
+/* Pendidikan */
+.pendidikan h1,
+.organisasi h1 {
+  font-family: Kanit;
+  margin-top: 150px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  color: white;
+  margin-top: 2px;
+}
+
+.pendidikan p,
+  .organisasi p {
+    font-family: Roboto;
+    color: #bfbfbf;
+    font-size: 16px;
+    text-align: 30px;
+
+  }
+
+  .pendidikan h2,
+  .organisasi h2 {
+    font-family: Roboto;
+    color: #F9D602;
+    font-size: 16px;
+  }
+
+  .pendidikan span,
+  .organisasi span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #21212170;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    line-height: 100%;
+    padding: 30px;
+    text-shadow: 1px 1px 1px #141414;
+  }
+  
+
+.pendidikan-logo h2 {
+  margin-top: 15px;
+  font-family: Kanit;
+  font-weight: 600;
+  font-size: 18px;
+  color: #F9D602;
+}
+
+.pendidikan-logo h3 {
+  font-family: Roboto;
+  font-size: 14px;
+  color: white;
+}
+
+.pendidikan-logo p {
+  margin-top: 15px;
+  line-height: 30px;
+  font-family: Roboto;
+  color: #bfbfbf;
+}
+
+.pendidikan-logo a {
+  font-family: Roboto;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.pendidikan-logo a:hover {
+  color: #bfbfbf;
+}
+
+.pendidikan-logo img {
+  box-shadow: 0 0 4px rgba(0,0,0,.2);
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Organisasi */
+.organisasi-logo h2 {
+  margin-top: 20px;
+  font-family: Kanit;
+  font-weight: 600;
+  font-size: 18px;
+  color: #F9D602;
+}
+
+.organisasi-logo p {
+  margin-top: 15px;
+  line-height: 30px;
+  font-family: Roboto;
+  color: #bfbfbf;
+}
+
+.organisasi-logo a {
+  font-family: Roboto;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.organisasi-logo img {
+  box-shadow: 0 0 4px rgba(0,0,0,.2);
+  margin-top: 50px;
+  width: 100%;
+}
+
+.akhir-text {
+  margin-bottom: 60px;
+}
+
+/* Sertifikat */
+.sertifikat h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sertifikat-item img {
+  width: 450px;
+  height: 300px;
+}
+
+.sertifikat-item span {
+  display: block;
+  width: 450px;
+  height: 300px;
+  background-color: #212121cc;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 300px;
+  font-size: 22px;
+  color: #F9D602;
+  text-shadow: 1px 1px 1px #141414;
+  opacity: 0;
+  transition: .3s;
+}
+
+.sertifikat-item a:hover span {
+  opacity: 1;
+}
+
+.sertifikat-item p {
+  font-family: Roboto;
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+  color: #bfbfbf;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+
+/* Bisnis */
+.bisnis h1 {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.bisnis-item {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.bisnis-item li {
+  float: left;
+}
+
+.bisnis-item .rioshop {
+  width: 90px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.bisnis-item .rioprint {
+  margin-right: 45px;
+}
+
+.bisnis-item li img {
+  filter: drop-shadow(.5px .5px .5px rgba(255, 255, 255, 0.5));
+  width: 70px;
+  height: 70px;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Kontak */
+.kontak {
+  background-color: #181818;
+  text-align: center;
+  padding: 50px;
+}
+
+.kontak h1 {
+  font-family: Kanit;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px
+}
+
+.kontak a:hover {
+  color: #bfbfbf;
+}
+
+.kontak p {
+  font-family: Roboto;
+  color: #bfbfbf;
+  line-height: 30px;
+}
+
+.kontak a {
+  font-family: Roboto;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+.kontak .sosmed {
+  color: white;
+  font-size: 28px;
+}
+
+.kontak .sosmed.email,
+.kontak .sosmed.instagram,
+.kontak .sosmed.whatsapp,
+.kontak .sosmed.facebook {
+  margin-right: 20px;
+}
+
+.kontak .fas, .fab {
+  color: white;
+} 
+
+.fas:hover, .fab:hover {
+  color: #F9D602;
+} 
+
+.kontak .logo img {
+  border: 1px solid #bfbfbf;
+  width: 20%;
+  margin-top: -520px;
+}
+
+/* Footer */
+.footer {
+  font-family: Roboto;
+  background-color: #141414;
+  color: #bfbfbf;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  /* Jumbotron */
+  .jumbotron .display-4 {
+    font-family: Kanit;
+    font-size: 46px;
+    margin-top: 100px;
+    line-height: 60px;
+    color: white;
+  }
+     
+  .jumbotron h3 {
+    font-family: Kanit;
+    color: #F9D602;
+    font-size: 30px;
+  }
+
+  .jumbotron .sosmed {
+    margin-right: 40px;
+    color: white;
+    font-size: 28px;
+  }
+
+  /* Pendidikan */
+  .pendidikan h1 {
+    font-size: 46px;
+  }
+
+  .pendidikan p,
+  .organisasi p {
+    font-family: Roboto;
+    color: #bfbfbf;
+    font-size: 16px;
+    text-align: 30px;
+
+  }
+
+  .pendidikan h2,
+  .organisasi h2 {
+    font-family: Roboto;
+    color: #F9D602;
+    font-size: 16px;
+  }
+
+  .pendidikan span,
+  .organisasi span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #212121ee;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    line-height: 80%;
+    padding: 30px;
+    text-shadow: 1px 1px 1px #141414;
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .pendidikan a:hover span,
+  .organisasi a:hover span {
+    opacity: 1;
+  }
+
+  .pendidikan-logo p {
+    font-family: Roboto;
+  }
+  
+  .pendidikan-logo h2 {
+    font-family: Kanit;
+    font-size: 22px;
+    margin-top: 50px;
+  }
+
+  .pendidikan-logo .khusus h2 {
+    margin-top: 20px;
+  }
+
+  .pendidikan-logo .khusus img {
+    margin-top: 20px;
+  }
+
+  .pendidikan-logo a {
+    font-size: 14px;
+  }
+
+  /* Organisasi */
+  .organisasi h1 {
+    font-size: 46px;
+  }
+
+  .organisasi-logo a {
+    font-size: 14px;
+  }
+
+  .organisasi-logo h2 {
+    margin-top: 50px;
+  }
+
+  .akhir {
+    margin-bottom: 80px;
+  }
+
+  /* Setifikat */
+  .sertifikat-item img {
+    width: 255px;
+    height: 170px;
+  }
+
+  .sertifikat-item span {
+    display: block;
+    width: 255px;
+    height: 170px;
+    background-color: #212121cc;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 170px;
+    font-size: 22px;
+    color: #F9D602;
+    text-shadow: 1px 1px 1px #141414;
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .sertifikat-item a:hover span {
+    opacity: 1;
+  }
+
+  /* Bisnis */
+  .bisnis h1 {
+    margin-top: 70px;
+    font-size: 20px;
+  }
+
+  .bisnis-item {
+    margin-top: 15px;
+    margin-bottom: 80px;
+  }
+
+  .bisnis-item .rioshop {
+    width: 130px;
+    height: 100px;
+    margin-right: 40px;
+  }
+  
+  .bisnis-item .rioprint {
+    margin-right: 90px;
+  }
+  
+  .bisnis-item li img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Kontak */
+  .kontak h1 {
+    font-family: Kanit;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .kontak-item {
+    text-align: left;
+  }
+
+  .kontak .sosmed.email,
+  .kontak .sosmed.instagram,
+  .kontak .sosmed.whatsapp,
+  .kontak .sosmed.facebook {
+    margin-right: 50px;
+  }
+
+  .kontak .sosmed {
+    margin-bottom: 30px;
+  }
+
+  .kontak .logo img {
+    margin-top: -80px;
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 14px;
+    text-align: left;
+  }
+}

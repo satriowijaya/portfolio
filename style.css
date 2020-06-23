@@ -84,7 +84,7 @@ body {
 
 .jumbotron .sosmed {
   margin-right: 20px;
-  color: white;
+  color: #bfbfbf;
   font-size: 28px;
 }
 
@@ -396,19 +396,24 @@ body {
 }
 
 .kontak .sosmed {
-  color: white;
+  color: #bfbfbf;
   font-size: 28px;
 }
 
-.kontak .sosmed.email,
+.kontak .sosmed.email {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
 .kontak .sosmed.instagram,
 .kontak .sosmed.whatsapp,
 .kontak .sosmed.facebook {
-  margin-right: 12px;
+  margin-right: 15px;
+
 }
 
 .kontak .fas, .fab {
-  color: white;
+  color: #bfbfbf;
 } 
 
 .fas:hover, 
@@ -419,7 +424,7 @@ body {
 .kontak .logo img {
   border: 1px solid #bfbfbf;
   width: 25%;
-  margin-top: -500px;
+  margin-top: -430px;
 }
 
 /* Footer */
@@ -762,6 +767,10 @@ body {
 
   .kontak-item {
     text-align: left;
+  }
+
+  .kontak .sosmed.email {
+    margin-left: 0px;
   }
 
   .kontak .sosmed.email,

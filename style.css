@@ -32,18 +32,21 @@ body {
 
 .jumbotron .display-4 {
   font-family: Kanit;
-  color: white;
-  font-size: 30px;
+  color: #FFC60B;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 39px;
   margin-top: 50px;
 }
    
 .jumbotron h3 {
   font-family: Kanit;
-  color: #FFC60B;
-  font-size: 20px;
+  color: white;
+  font-size: 30px;
   font-weight: 600;
+  line-height: 60px;
+  margin-top: -20px;
+  margin-bottom: -15px;
 }
      
 .jumbotron p {
@@ -401,7 +404,7 @@ body {
 }
 
 .kontak .sosmed.email {
-  margin-left: 10px;
+  margin-left: 15px;
   margin-right: 15px;
 }
 
@@ -448,20 +451,21 @@ body {
   /* Jumbotron */
   .jumbotron .display-4 {
     font-family: Kanit;
-    color: white;
-    font-size: 46px;
+    color: #FFC60B;
+    font-size: 30px;
     margin-top: 100px;
     line-height: 60px;
   }
      
   .jumbotron h3 {
     font-family: Kanit;
-    color: #FFC60B;
-    font-size: 30px;
+    color: white;
+    font-size: 46px;
+    margin-bottom: 25px;
   }
 
   .jumbotron .sosmed {
-    color: white;
+    color: #bfbfbf;
     font-size: 28px;
     margin-right: 40px;
   }
